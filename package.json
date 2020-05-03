@@ -1,0 +1,23 @@
+{
+  "name": "hubot-channel-quotes",
+  "version": "0.0.1",
+  "description": "Channel-separated quote system for hubot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veggiematts/hubot-channel-quotes.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "author": "Matthias Meusburger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/veggiematts/hubot-channel-quotes/issues"
+  },
+  "homepage": "https://github.com/veggiematts/hubot-channel-quotes#readme"
+}
