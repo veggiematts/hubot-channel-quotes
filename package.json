@@ -1,6 +1,6 @@
 {
   "name": "hubot-channel-quotes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Channel-separated quote system for hubot",
   "main": "index.js",
   "scripts": {

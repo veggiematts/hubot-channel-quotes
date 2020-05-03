@@ -83,8 +83,9 @@ module.exports = (robot) => {
         checkChannel(room);
         if (res.match[2]) {
             var foundquotes = Array();
+            var searchreg = new RegExp(res.match[2],"i");
             quotes[room].forEach((item,index) => {
-                if ((res.match[1] == 'search' && item.quote.match(res.match[2])) ||
+                if ((res.match[1] == 'search' && item.quote.match(searchreg)) ||
                      res.match[1] == 'by' && item.user == res.match[2]) {
                     foundquotes.push('#' + (index + 1) + ': "' + (item.quote.length > 50 ? item.quote.substring(0, 50) + '...' : item.quote) + '"');
                 }
